@@ -1,5 +1,4 @@
 
-# Dictionary representing the morse code chart
 MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
    'C':'-.-.', 'D':'-..', 'E':'.',
    'F':'..-.', 'G':'--.', 'H':'....',
