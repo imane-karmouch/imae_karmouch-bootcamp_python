@@ -32,7 +32,46 @@ def print_recipe(recipename):
   if recipename in cookbook:
     del cookbook[recipename]
     
- def addrecipe(recipename,ingredients,time_of_cooking,type):
+ def addrecipe(recipename,i,c,t):
+      new_recipe={"ingredients":[],
+                  "time":" ",
+                  "type":" "},
+      nex_recipe["ingredients"].append(i)
+      new_recipe["time"]=recipe["time"]+c
+      new_recipe["type"]=recipe["type"]+t
+      cookbook[recipename]=nex_recipe
+      
+def prt():
+      print(cookbook.items())
+      
+print("1: Add a recipe","2: Delete a recipe ","3: Print a recipe","4: Print the cookbook","5: Quit",sep='\n')
+option=(int(input())
+      if option==1:
+            new=input("your recipe name")
+            i=(input())
+            c=(input())
+            t=input())
+            new=addrecipe(recipename,i,c,t)
+      elif option==2:
+            recipename=input("the recipe you want to delete"))
+            delrecipe(recipename)
+      elif option==3:
+            recipename=input("print the recipe"))
+            print_recipe(recipename)
+      elif option==4:
+            prt()
+      elif option==5:
+            print("Cookbook closed.")
+
+        
+      
+
+      
+       
+
+      
+
+      
   
   
     
