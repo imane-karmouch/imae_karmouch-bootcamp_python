@@ -5,10 +5,10 @@ m=int(input("What's your guess between 1 and 99?"))
 coup=1
 while (m != n):
     if (n> m):
-        print("Too low!");
+        print("Too low!")
     else:
         if (n < m):
-            print("Too high!");
+            print("Too high!")
     m=int(input("What's your guess between 1 and 99?"))
     coup+=1
-print ("Congratulations, you've got it in :",coup,"tries");
+print ("Congratulations, you've got it in :",coup,"tries")
