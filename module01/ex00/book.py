@@ -22,10 +22,7 @@ class book:
   def get_recipe_by_name(self, name):
     """Print a recipe with the name `name` and return the instance"""
     pass
-    for key in self.recipes_list:
-      for recipe in self.recipes_list[key]:
-        if recipe.name==name:
-          return recipe
+    
    
   def get_recipes_by_types(self, recipe_type):
     """Get all recipe names for a given recipe_type """
@@ -37,6 +34,5 @@ class book:
   def add_recipe(self, recipe):
     """Add a recipe to the book and update last_update"""
     pass
-    L=self.recipes_list[recipe.recipe_type]
-    L.append(recipe)
+   
     
